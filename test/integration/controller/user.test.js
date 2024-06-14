@@ -22,7 +22,7 @@ describe("UserController", () => {
     const findOneStub = mockAsync(Users, "findOne", USER);
     const req = {
       body: {
-        email: "",
+        email: "liviapcoutinho@gmail.com",
         password: "password123",
       },
     };
